@@ -34,9 +34,25 @@
           <a href="#" target="_blank" class="form__forgot-pass"
             >Esqueceu a senha?</a
           >
-          <a href="#" target="_blank" class="form__register-link">
+          <a href="#" class="form__register-link">
             Ainda não tem conta? Cadastre-se aqui!
           </a>
+
+          <dialog class="cadastro">
+            <div class="modal__cadastro">
+              <input class="modal__form" type="text" name="nome" id="nome" placeholder="Nome">
+              <input class="modal__form" type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+              <input class="modal__form" type="text" name="celularOuEmail" id="celularOuEmail" placeholder="Celular ou email">
+              <input class="modal__form" type="text" name="novaSenha" id="novaSenha" placeholder="Nova senha">
+
+              <div class="modal__buttons">
+                <button class="fechar_modal">Fechar Modal</button>
+                <button class="form__cadastro">Cadastrar</button>
+              </div>
+            
+            </div>
+          </dialog>
+
           <button class="form__login-btn">Entrar</button>
         </form>
       </div>
